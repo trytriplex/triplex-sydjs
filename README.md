@@ -8,13 +8,19 @@ Here's some references to what we're going to be using.
 
 - [React Three Fiber](https://github.com/pmndrs/react-three-fiber)
 - [uikit](https://github.com/pmndrs/uikit)
+- [VS Code](https://code.visualstudio.com/)
 - [Triplex](https://triplex.dev)
 - [Talsho Login Screens](https://dribbble.com/shots/16120339-Talsho-Login-Screens) design by Kailash Saravanan
 
 ## Get Started
 
+This workshop assumes you're using VS Code.
+
 1. Clone this repository
 1. Install dependencies (preference: pnpm)
+1. Install [Triplex for VS Code](https://marketplace.visualstudio.com/items?itemName=trytriplex.triplex-vsce)
+
+You're ready. Follow along!
 
 ## Press Enter To Continue...
 

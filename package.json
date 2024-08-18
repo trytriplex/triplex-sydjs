@@ -3,13 +3,15 @@
   "version": "0.0.0",
   "private": true,
   "dependencies": {
-    "@react-three/drei": "^9.103.0",
-    "@react-three/fiber": "^8.16.1",
-    "@types/react": "^18.2.25",
-    "@types/three": "^0.163.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "three": "^0.163.0"
+    "@react-three/drei": "^9.111.0",
+    "@react-three/fiber": "^8.17.5",
+    "@react-three/uikit": "^0.4.4",
+    "@types/react": "^18.3.3",
+    "@types/three": "^0.167.1",
+    "prettier": "^3.3.3",
+    "react-dom": "^18.3.1",
+    "react": "^18.3.1",
+    "three": "^0.167.1"
   },
   "packageManager": "pnpm@8.6.1+sha512.3f9e23f20bdbf7a27b87b804383f1dafdb5cb35cdc40fce590aff2215255446ff595878ee4f33429e6a0e7c3882b1ae926514f6fea6a5ba75e52f87bfc2592e7"
 }
