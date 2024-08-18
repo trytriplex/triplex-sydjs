@@ -1,4 +1,4 @@
-export function Scene() {
+export function UIScene() {
   return (
     <>
       <mesh castShadow receiveShadow>
@@ -7,4 +7,8 @@ export function Scene() {
       </mesh>
     </>
   );
+}
+
+export function UIBackground() {
+  return <></>;
 }
