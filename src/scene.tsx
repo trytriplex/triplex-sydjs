@@ -8,7 +8,3 @@ export function UIScene() {
     </>
   );
 }
-
-export function UIBackground() {
-  return <></>;
-}
