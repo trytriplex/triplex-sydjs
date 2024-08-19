@@ -1,6 +1,6 @@
 # Triplex for [SydJS](https://sydjs.com)
 
-Today we're going to build a user interface in 3D! Knowledge of React Three Fiber not needed.
+Today we're going to build a user interface in 3D! Knowledge of React Three Fiber not needed. Enjoyed the workshop? [Let me know on X/Twitter](https://x.com/_douges).
 
 <img src="./public/talsho-screens.png" height="300" />
 
