@@ -1,8 +1,10 @@
-export const surface = "#F4E6FD";
-export const interactive = "#DE6394";
+export const surface = "#f4e6fd";
+export const interactive = "#d63f84";
+export const foreground = "#5e4a9b";
+export const foregroundInverse = "#f4e6fd";
 
 export const accent = {
-  pink: "#DE6394",
+  pink: "#d63f84",
   purple: "#382870",
 };
 

@@ -3,7 +3,7 @@ import { type Vector3Tuple } from "three";
 import * as p from "../palette";
 
 export function Circle({
-  color,
+  color = "pink",
   position,
   size,
 }: {
@@ -20,12 +20,12 @@ export function Circle({
 }
 
 export function SemiCircle({
-  color,
+  color = "pink",
   position,
   rotation,
   size,
 }: {
-  color?: string;
+  color?: p.AccentPalette;
   position?: Vector3Tuple;
   rotation?: Vector3Tuple;
   size?: number;
@@ -38,12 +38,20 @@ export function SemiCircle({
   );
 }
 
-export function Ring() {
+export function Ring({
+  color = "purple",
+  position,
+  rotation,
+}: {
+  color?: p.AccentPalette;
+  position?: Vector3Tuple;
+  rotation?: Vector3Tuple;
+}) {
   return (
-    <mesh castShadow position={[-1.2, 1.4, 0]} receiveShadow>
+    <mesh castShadow rotation={rotation} position={position} receiveShadow>
       <ringGeometry args={[1.27, 1.3, 60]} />
       <meshStandardMaterial
-        color="#5e4a9b"
+        color={color}
         emissive="#fff"
         emissiveIntensity={0.05}
       />
