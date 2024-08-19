@@ -1,12 +1,13 @@
 import { Float } from "@react-three/drei";
 import { type Vector3Tuple } from "three";
+import * as p from "../palette";
 
 export function Circle({
   color,
   position,
   size,
 }: {
-  color?: string;
+  color?: p.AccentPalette;
   position?: Vector3Tuple;
   size?: number;
 }) {

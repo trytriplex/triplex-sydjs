@@ -1,5 +1,6 @@
 import { Container, Portal, Root } from "@react-three/uikit";
 import { Circle, Ring, SemiCircle } from "./shapes";
+import * as p from "../palette";
 
 export function ShapesBackground() {
   return (
