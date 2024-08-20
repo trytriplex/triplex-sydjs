@@ -14,13 +14,24 @@ Here's some references to what we're going to be using.
 
 ## Get Started
 
-This workshop assumes you're using VS Code.
+This workshop assumes you're using VS Code and have Node.js installed.
 
 1. Clone this repository
-1. Install dependencies (preference: pnpm)
-1. Install [Triplex for VS Code](https://marketplace.visualstudio.com/items?itemName=trytriplex.triplex-vsce)
 
-You're ready. Follow along!
+```sh
+  git clone https://github.com/try-triplex/triplex-sydjs.git
+  cd triplex-sydjs
+  git checkout empty-scene
+```
+
+2. Install dependencies (preference: pnpm)
+
+```sh
+pnpm i
+```
+
+3. Install [Triplex for VS Code](https://marketplace.visualstudio.com/items?itemName=trytriplex.triplex-vsce), search: "triplex"
+4. You're ready. Follow along!
 
 ## Press Enter To Continue...
 
