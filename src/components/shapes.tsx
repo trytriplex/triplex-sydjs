@@ -14,7 +14,7 @@ export function Circle({
   return (
     <mesh castShadow position={position} receiveShadow>
       <sphereGeometry args={[size, 30, 30]} />
-      <meshStandardMaterial color={color} />
+      <meshStandardMaterial color={p.accent[color]} />
     </mesh>
   );
 }
@@ -33,7 +33,7 @@ export function SemiCircle({
   return (
     <mesh castShadow position={position} receiveShadow rotation={rotation}>
       <sphereGeometry args={[size, 30, 30, 0, Math.PI * 2, 0, Math.PI / 2]} />
-      <meshStandardMaterial color={color} />
+      <meshStandardMaterial color={p.accent[color]} />
     </mesh>
   );
 }
@@ -51,7 +51,7 @@ export function Ring({
     <mesh castShadow rotation={rotation} position={position} receiveShadow>
       <ringGeometry args={[1.27, 1.3, 60]} />
       <meshStandardMaterial
-        color={color}
+        color={p.accent[color]}
         emissive="#fff"
         emissiveIntensity={0.05}
       />
