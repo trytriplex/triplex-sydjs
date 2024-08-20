@@ -1,10 +1,10 @@
 import { Container, Portal, Root, Text } from "@react-three/uikit";
-import { Circle, Ring, SemiCircle } from "./shapes";
-import * as p from "../palette";
 import { CuboidCollider, Physics, RigidBody } from "@react-three/rapier";
 import { PerspectiveCamera } from "@react-three/drei";
 import { MathUtils, MeshStandardMaterial } from "three";
 import { useState } from "react";
+import { Circle, Ring, SemiCircle } from "./shapes";
+import * as p from "../palette";
 
 export function ShapesBackground({ isEnabled }: { isEnabled?: boolean }) {
   return (
@@ -15,7 +15,7 @@ export function ShapesBackground({ isEnabled }: { isEnabled?: boolean }) {
         <CuboidCollider args={[0.5, 10, 10]} position={[5, -3, 0]} />
         <CuboidCollider args={[10, 10, 0.5]} position={[0, -3, -5]} />
         <CuboidCollider args={[10, 10, 0.5]} position={[0, -3, 5]} />
-        <color args={[p.surface]} attach="background" />
+        <color args={[p.surface.default]} attach="background" />
         <PerspectiveCamera makeDefault manual position={[0, 0, 5]} />
         <RigidBody colliders={"ball"} position={[1.4, 1.4, 0]} restitution={1}>
           <Circle color="pink" size={1.6} />
@@ -57,7 +57,7 @@ export function TalshoMobileScreen() {
       <Root flexDirection="column">
         <Container
           alignItems="flex-start"
-          backgroundColor={p.surface}
+          backgroundColor={p.surface.default}
           borderRadius={20}
           castShadow
           flexDirection="column"
@@ -81,7 +81,7 @@ export function TalshoMobileScreen() {
 
           <Container flexDirection="column" gap={8}>
             <Text
-              color={p.foreground}
+              color={p.foreground.default}
               fontSize={8}
               fontWeight="semi-bold"
               panelMaterialClass={MeshStandardMaterial}
@@ -91,7 +91,7 @@ export function TalshoMobileScreen() {
               Welcome To Talsho
             </Text>
             <Text
-              color={p.foreground}
+              color={p.foreground.default}
               fontSize={4}
               fontWeight="medium"
               panelMaterialClass={MeshStandardMaterial}
@@ -126,7 +126,7 @@ export function TalshoMobileScreen() {
             <Container
               active={{ backgroundOpacity: 0.8 }}
               alignSelf="flex-start"
-              backgroundColor={p.interactive}
+              backgroundColor={p.surface.interactive}
               borderRadius={9999}
               castShadow
               flexDirection="column"
@@ -138,7 +138,7 @@ export function TalshoMobileScreen() {
               panelMaterialClass={MeshStandardMaterial}
               transformTranslateZ={3}
             >
-              <Text color={p.foregroundInverse} fontSize={4} fontWeight="bold">
+              <Text color={p.foreground.inverse} fontSize={4} fontWeight="bold">
                 Get started
               </Text>
             </Container>
