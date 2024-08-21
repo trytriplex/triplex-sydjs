@@ -13,7 +13,7 @@ export function ShapesBackground() {
       <pointLight intensity={50} />
       <spotLight castShadow intensity={30} position={[-1, 1, 3]} />
       <ambientLight intensity={4} />
-      {/* Code goes here */}
+      {/* Let's position more shapes */}
       <Circle size={0.3} />
     </>
   );
@@ -48,7 +48,7 @@ export function TalshoMobileScreen() {
           </Portal>
 
           <Container flexDirection="column" gap={8}>
-            {/* Code goes here */}
+            {/* Let's build up a 3D user interface */}
           </Container>
         </Container>
       </Root>

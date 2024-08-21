@@ -6,14 +6,16 @@ export function Circle({
   position,
   size,
 }: {
-  /* Code goes here */
   position?: Vector3Tuple;
   size?: number;
 }) {
   return (
     <mesh castShadow position={position} receiveShadow>
       <sphereGeometry args={[size, 30, 30]} />
-      <meshStandardMaterial color="#382870" />
+      <meshStandardMaterial
+        /* Let's update this to be dynamic */
+        color="#382870"
+      />
     </mesh>
   );
 }

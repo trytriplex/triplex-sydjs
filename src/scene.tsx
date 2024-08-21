@@ -5,6 +5,7 @@ import { TalshoMobileScreen } from "./components/screens";
 export function UIScene() {
   return (
     <>
+      {/* Let's set color props, add floats, and physics if we have time. */}
       <Gltf
         castShadow
         position={[1.02, 1.54, -1.72]}
