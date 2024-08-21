@@ -13,7 +13,7 @@ export function Circle({
   return (
     <mesh castShadow position={position} receiveShadow>
       <sphereGeometry args={[size, 30, 30]} />
-      <meshStandardMaterial />
+      <meshStandardMaterial color="#382870" />
     </mesh>
   );
 }

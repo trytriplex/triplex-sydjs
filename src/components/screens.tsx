@@ -13,7 +13,6 @@ export function ShapesBackground() {
       <pointLight intensity={50} />
       <spotLight castShadow intensity={30} position={[-1, 1, 3]} />
       <ambientLight intensity={4} />
-
       {/* Code goes here */}
       <Circle size={0.3} />
     </>

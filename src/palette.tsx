@@ -1,5 +1,5 @@
 export const surface = {
-  default: "#f4e6fd",
+  default: "#fbf5ff",
   interactive: "#d63f84",
 };
 
